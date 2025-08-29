@@ -1,16 +1,26 @@
-# medttime2
+# Meditation Timer App
 
-A new Flutter project.
+This is a Flutter-based meditation timer that I built to help create a calm and focused meditation experience.  
+It works on **Web (Chrome)** as well as mobile, and comes with simple controls and relaxing background sounds.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Features
+- Customizable meditation timer (choose seconds or minutes).
+- Background sounds to choose from:
+  - Heal  
+  - Peace  
+  - Rain  
+- Smooth background color transitions during meditation.
+- Saves previous meditation sessions for quick tracking.
+- Progress bar to show session time left.
+- Dark mode support.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to Run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/namratharamesh20/Meditation_Timer_App.git
+   cd Meditation_Timer_App
