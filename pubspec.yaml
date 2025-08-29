@@ -1,0 +1,27 @@
+name: meditation_timer_app
+description: A new Flutter meditation timer app.
+publish_to: 'none' # This app is not published to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^3.0.1
+  shared_preferences: ^2.2.2 
+  numberpicker: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sounds/heal.mp3
+    - assets/sounds/peace.mp3
+    - assets/sounds/rain.mp3
